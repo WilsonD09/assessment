@@ -1596,5 +1596,5 @@ function chain(){
     .filter((el) => el.cardCount.total >= 200)
     .sort((x,y) => x.cardCount.total - y.cardCount.total)
     .forEach((el) => console.log(`${el.name}, ${el.cardCount.total}`));
-};
+}
 chain();
